@@ -46,6 +46,6 @@ class Servo < Formula
   end
 
   test do
-    system "#{bin}/servo", "-o", "/dev/null", "-x", "http://example.com"
+    system prefix/"servo", "-o", "/dev/null", "-x", "http://example.com"
   end
 end
