@@ -9,6 +9,7 @@ class Servo < Formula
   depends_on "pkg-config" => :build
   depends_on "python" => :build
   depends_on "cmake" => :build
+  depends_on "openssl"
 
   resource "virtualenv" do
     url "https://pypi.python.org/packages/source/v/virtualenv/virtualenv-13.1.2.tar.gz"
