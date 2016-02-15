@@ -11,6 +11,10 @@ class Servo < Formula
   depends_on "cmake" => :build
   depends_on "openssl"
 
+  patch do # FIXME: to remove once PR lands
+    url "https://patch-diff.githubusercontent.com/raw/servo/servo/pull/9643.diff"
+  end
+
   resource "virtualenv" do
     url "https://pypi.python.org/packages/source/v/virtualenv/virtualenv-13.1.2.tar.gz"
     sha256 "aabc8ef18cddbd8a2a9c7f92bc43e2fea54b1147330d65db920ef3ce9812e3dc"
@@ -42,8 +46,7 @@ class Servo < Formula
     prefix.install "target/#{build_type}/servo"
     prefix.install "resources"
 
-    # Waiting for https://github.com/servo/servo/pull/9643
-    # bin.install_symlink prefix/"servo"
+    bin.install_symlink prefix/"servo"
   end
 
   test do

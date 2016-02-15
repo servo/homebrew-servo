@@ -7,8 +7,7 @@ Homebrew formula for [Servo](http://servo.org).
 
     $ brew tap paulrouget/servo
     $ brew install --HEAD servo
-    $ /usr/local/opt/servo/servo http://google.com
-    $ /usr/local/opt/servo/servo --help
+    $ servo http://google.com # See `servo --help`
 
 For debug build:
 
