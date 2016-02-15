@@ -42,7 +42,7 @@ class Servo < Formula
     prefix.install "target/#{build_type}/servo"
     prefix.install "resources"
 
-    # Servo binary looks for resources, and won't find if it lives by itself
+    # Waiting for https://github.com/servo/servo/pull/9643
     # bin.install_symlink prefix/"servo"
   end
 
