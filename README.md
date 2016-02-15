@@ -12,7 +12,7 @@ Homebrew formula for [Servo](http://servo.org).
 
 For debug build:
 
-    $ brew install --HEAD --width-debug servo
+    $ brew install --HEAD --with-debug servo
 
 To upgrade:
 
