@@ -13,7 +13,7 @@ class Servo < Formula
 
   patch do # FIXME: to remove once PR lands
     url "https://patch-diff.githubusercontent.com/raw/servo/servo/pull/9643.diff"
-    sha256 "1f4542906a3c99a852da88f1bf4659653662e8a101cccc939d391eeb6499fdcc"
+    sha256 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
   end
 
   resource "virtualenv" do
