@@ -5,7 +5,7 @@ Homebrew formula for [Servo](http://servo.org).
 
 ## Usage
 
-    $ brew tap paulrouget/servo
+    $ brew tap servo/servo
     $ brew install --HEAD servo
     $ servo http://google.com # See `servo --help`
 
