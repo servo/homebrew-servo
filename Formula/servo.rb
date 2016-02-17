@@ -11,11 +11,6 @@ class Servo < Formula
   depends_on "cmake" => :build
   depends_on "openssl"
 
-  patch do # FIXME: to remove once PR lands
-    url "https://patch-diff.githubusercontent.com/raw/servo/servo/pull/9643.diff"
-    sha256 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-  end
-
   resource "virtualenv" do
     url "https://pypi.python.org/packages/source/v/virtualenv/virtualenv-13.1.2.tar.gz"
     sha256 "aabc8ef18cddbd8a2a9c7f92bc43e2fea54b1147330d65db920ef3ce9812e3dc"
