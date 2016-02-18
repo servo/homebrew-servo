@@ -38,7 +38,6 @@ class Servo < Formula
     system "./mach", "build", build_type_arg
 
     # install
-    prefix.install "target/#{build_type}/deps"
     prefix.install "target/#{build_type}/servo"
     prefix.install "resources"
 
