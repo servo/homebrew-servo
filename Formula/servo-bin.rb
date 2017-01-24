@@ -5,9 +5,9 @@
 class ServoBin < Formula
   desc "Servo, the Parallel Browser Engine Project (binary version)"
   homepage "http://servo.org"
-  url "https://download.servo.org/nightly/macbrew/2017-01-23T01-19-36Z-servo.tar.gz"
-  version "2017.01.23"
-  sha256 "2c4de37b05276041be4fb83b5465d6ad127274459b3b108d33897ba5ddc7e028"
+  url "https://download.servo.org/nightly/macbrew/2017-01-24T01-23-43Z-servo.tar.gz"
+  version "2017.01.24"
+  sha256 "f91f1edd4a748162b32343e22e76b5ce661c815f8c4ae53e2c992532f39fb113"
 
   bottle :unneeded
 
