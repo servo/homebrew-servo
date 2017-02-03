@@ -8,7 +8,7 @@ Homebrew formula for [Servo](http://servo.org).
 ### Install pre-built binary (nightly builds):
 
     $ brew install servo/servo/servo-bin
-    $ servo -w http://servo.org # See `servo --help`
+    $ servo http://servo.org # See `servo --help`
 
 To upgrade:
 
